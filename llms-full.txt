@@ -1,0 +1,39 @@
+# Santiago
+
+> Geotechnical engineering company in Chile, providing professional services in soil mechanics, foundation engineering and site investigation.
+
+## Services
+- [Asentamiento Diferencial](https://santiago.geotecnia1.biz/asentamiento-diferencial/)
+- [Asentamientos](https://santiago.geotecnia1.biz/asentamientos/)
+- [Cimentaciones](https://santiago.geotecnia1.biz/cimentaciones/)
+- [Corte Directo](https://santiago.geotecnia1.biz/corte-directo/)
+- [Deslizamientos](https://santiago.geotecnia1.biz/deslizamientos/)
+- [Drenaje Vial](https://santiago.geotecnia1.biz/drenaje-vial/)
+- [Ensayo Cpt](https://santiago.geotecnia1.biz/ensayo-cpt/)
+- [Ensayo Spt](https://santiago.geotecnia1.biz/ensayo-spt/)
+- [Estabilidad Taludes](https://santiago.geotecnia1.biz/estabilidad-taludes/)
+- [Estudio Mecanica Suelos](https://santiago.geotecnia1.biz/estudio-mecanica-suelos/)
+- [Exploracion](https://santiago.geotecnia1.biz/exploracion/)
+- [Geoceldas](https://santiago.geotecnia1.biz/geoceldas/)
+- [Geofisica](https://santiago.geotecnia1.biz/geofisica/)
+- [Geomallas](https://santiago.geotecnia1.biz/geomallas/)
+- [Geotecnia Vial](https://santiago.geotecnia1.biz/geotecnia-vial/)
+- [Laboratorio](https://santiago.geotecnia1.biz/laboratorio/)
+- [Licuefaccion](https://santiago.geotecnia1.biz/licuefaccion/)
+- [Mejoramiento](https://santiago.geotecnia1.biz/mejoramiento/)
+- [Monitoreo Taludes](https://santiago.geotecnia1.biz/monitoreo-taludes/)
+- [Muros Contencion](https://santiago.geotecnia1.biz/muros-contencion/)
+- [Pavimento Flexible](https://santiago.geotecnia1.biz/pavimento-flexible/)
+- [Pilotes](https://santiago.geotecnia1.biz/pilotes/)
+- [Respuesta Sismica](https://santiago.geotecnia1.biz/respuesta-sismica/)
+- [Sismica](https://santiago.geotecnia1.biz/sismica/)
+- [Taludes](https://santiago.geotecnia1.biz/taludes/)
+- [Tomografia Sismica](https://santiago.geotecnia1.biz/tomografia-sismica/)
+- [Vibrocompactacion](https://santiago.geotecnia1.biz/vibrocompactacion/)
+
+## Contact
+- Website: https://santiago.geotecnia1.biz/
+
+## About
+This page provides information about geotechnical engineering services available in Chile.
+The company complies with local and international standards including ASTM, ISO and country-specific norms.
