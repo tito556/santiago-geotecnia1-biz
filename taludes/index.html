@@ -19,85 +19,82 @@
 <meta name="twitter:description" content="En Santiago, la estabilidad de laderas y cortes exige un conocimiento profundo de los suelos residuales de la Cordillera de la Costa y los depósitos fluvio">
 <meta name="twitter:image" content="https://santiago.geotecnia1.biz/img/estabilidad-taludes-1.webp">
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;Georgia,serif;background:#FEFCE8;color:#14532D;line-height:1.7;font-size:16px}
-a{color:#A16207;text-decoration:none}
-a:hover{color:#CA8A04}
-/* HEADER DARK */
-.header{background:#14532D;color:#FFF;padding:3rem 3rem 4rem}
-.header-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:2.5rem}
-.brand{display:flex;align-items:flex-start;gap:1rem}
-.brand-logo{width:50px;height:50px;border:2px solid #FFF;position:relative;display:flex;align-items:center;justify-content:center}
-.brand-logo::before{content:"+";color:#FFF;font-size:1.6rem;font-weight:300}
-.brand-text{margin-top:.3rem}
+@media(max-width:900px){.layout{grid-template-columns:1fr}
+.cat-toggle{width:48px;background:transparent;border:none;border-left:1px solid rgba(255,255,255,.08);color:inherit;cursor:pointer;font-size:1.05rem;padding:0;display:flex;align-items:center;justify-content:center;transition:background .15s,transform .2s}
+details.faq summary{font-weight:700;color:#14532D;list-style:none;font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;serif}
+.crumb-4d4b a:hover{color:#A16207}
 .brand-name{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;serif;font-weight:700;letter-spacing:.15em;font-size:1rem;color:#FFF}
-.brand-city{font-size:.82rem;color:#888;margin-top:.2rem}
-.header-email{color:#FFF;font-size:.88rem}
-.crumb{font-size:.82rem;color:rgba(255,255,255,.85);margin-bottom:.8rem}
-.crumb a{color:#FFF;text-decoration:underline;font-weight:600}
-.crumb a:hover{color:#A16207}
-.header h1{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;serif;font-weight:700;font-size:clamp(2rem,4vw,2.8rem);color:#FFF;letter-spacing:-.01em;line-height:1.15}
+table th{background:#14532D;color:#FFF;text-align:left;padding:.7rem 1rem;font-size:.85rem;letter-spacing:.05em;font-weight:700}
 /* LAYOUT */
 .layout{display:grid;grid-template-columns:240px 1fr;gap:0;max-width:1200px;margin:0 auto;padding:2rem}
-/* SIDEBAR */
-aside{background:#14532D;color:#FFF;padding:1rem 0;align-self:start;position:sticky;top:1rem;border-radius:0}
-.sb-home{display:block;padding:1rem 1.5rem;font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;serif;font-weight:700;color:#FFF;border-bottom:1px solid #222;letter-spacing:.02em}
-aside details{border-bottom:1px solid #222}
-aside details summary{padding:.85rem 1.5rem;cursor:pointer;list-style:none;color:#E5E5E5;font-size:.92rem;display:flex;justify-content:space-between;align-items:center}
-aside details summary::-webkit-details-marker{display:none}
-aside details[open] summary{background:#181818;color:#A16207}
-aside details summary .arr{color:#666;font-size:.75rem;transition:transform .2s}
-aside details[open] summary .arr{transform:rotate(90deg);color:#A16207}
-.sb-sub{background:#181818;padding:.3rem 0 .8rem}
-.sb-sub a{display:block;padding:.45rem 1.5rem .45rem 2rem;color:#BBB;font-size:.85rem;border-left:2px solid transparent}
-.sb-sub a:hover{color:#A16207;border-left-color:#A16207;background:#0F0F0F}
+footer a{color:#A16207}
+.header-email{color:#FFF;font-size:.88rem}
+details.faq p{color:#444;margin:0}
 /* MAIN */
 main{background:#FFF;padding:3rem 3rem;min-height:60vh}
-main h2{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;serif;font-weight:700;font-size:1.6rem;color:#14532D;margin:2rem 0 1rem;letter-spacing:.01em}
-main p{margin-bottom:1.1rem;color:#333;line-height:1.75;text-align:justify;hyphens:auto;-webkit-hyphens:auto}
+a{color:#A16207;text-decoration:none}
 main p:first-child{font-size:1.05rem;color:#333}
+/* HEADER DARK */
+.header{background:#14532D;color:#FFF;padding:3rem 3rem 4rem}
+details.faq[open] summary{margin-bottom:.7rem;color:#CA8A04}
+.brand-city{font-size:.82rem;color:#888;margin-top:.2rem}
+.cat-toggle[aria-expanded="true"]{transform:none}
+table td{padding:.7rem 1rem;border-bottom:1px solid #E5E5E5;color:#14532D}
 
 
 
 
 table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;serif}
-table th{background:#14532D;color:#FFF;text-align:left;padding:.7rem 1rem;font-size:.85rem;letter-spacing:.05em;font-weight:700}
-table td{padding:.7rem 1rem;border-bottom:1px solid #E5E5E5;color:#14532D}
-details.faq{background:#FAFAFA;border:1px solid #E5E5E5;padding:1rem 1.3rem;margin-bottom:.7rem;cursor:pointer}
-details.faq summary{font-weight:700;color:#14532D;list-style:none;font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;serif}
-details.faq[open] summary{margin-bottom:.7rem;color:#CA8A04}
-details.faq p{color:#444;margin:0}
 footer{background:#14532D;color:#AAA;padding:2rem 3rem;font-size:.82rem;text-align:center;margin-top:3rem}
-footer a{color:#A16207}
-@media(max-width:900px){.layout{grid-template-columns:1fr}aside{position:static}}
+.cat-row{display:flex;align-items:stretch;justify-content:space-between;background:transparent;transition:background .15s}
+.header-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:2.5rem}
+details.faq{background:#FAFAFA;border:1px solid #E5E5E5;padding:1rem 1.3rem;margin-bottom:.7rem;cursor:pointer}
 
 .cat-item{margin:0;border-bottom:1px solid rgba(255,255,255,.05)}
-.cat-row{display:flex;align-items:stretch;justify-content:space-between;background:transparent;transition:background .15s}
+/* SIDEBAR */
+aside{background:#14532D;color:#FFF;padding:1rem 0;align-self:start;position:sticky;top:1rem;border-radius:0}
+aside details summary .arr{color:#666;font-size:.75rem;transition:transform .2s}
+aside details[open] summary .arr{transform:rotate(90deg);color:#A16207}
+main h2{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;serif;font-weight:700;font-size:1.6rem;color:#14532D;margin:2rem 0 1rem;letter-spacing:.01em}
+a:hover{color:#CA8A04}
+.crumb-4d4b a{color:#FFF;text-decoration:underline;font-weight:600}aside{position:static}
+main p{margin-bottom:1.1rem;color:#333;line-height:1.75;text-align:justify;hyphens:auto;-webkit-hyphens:auto}
+.cat-arrow{display:inline-block;transition:transform .2s ease;font-size:.85rem}
+.cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
+aside details[open] summary{background:#181818;color:#A16207}
+aside details{border-bottom:1px solid #222}
+aside details summary::-webkit-details-marker{display:none}
+.header h1{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;serif;font-weight:700;font-size:clamp(2rem,4vw,2.8rem);color:#FFF;letter-spacing:-.01em;line-height:1.15}
 .cat-row:hover{background:rgba(255,255,255,.05)}
+.cat-sub a:hover{opacity:1;background:rgba(255,255,255,.05)}
+*{margin:0;padding:0;box-sizing:border-box}
+.cat-toggle:hover{background:rgba(255,255,255,.1)}
+body{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;Georgia,serif;background:#FEFCE8;color:#14532D;line-height:1.7;font-size:16px}
+.brand{display:flex;align-items:flex-start;gap:1rem}
+.brand-text{margin-top:.3rem}
+.sb-sub a:hover{color:#A16207;border-left-color:#A16207;background:#0F0F0F}
+.sb-home{display:block;padding:1rem 1.5rem;font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;serif;font-weight:700;color:#FFF;border-bottom:1px solid #222;letter-spacing:.02em}
+.sb-sub a{display:block;padding:.45rem 1.5rem .45rem 2rem;color:#BBB;font-size:.85rem;border-left:2px solid transparent}
+.cat-sub a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
+.sb-sub{background:#181818;padding:.3rem 0 .8rem}
+.brand-logo{width:50px;height:50px;border:2px solid #FFF;position:relative;display:flex;align-items:center;justify-content:center}
 .cat-name{flex:1;padding:.85rem 1.1rem;color:inherit;text-decoration:none;font-weight:600;line-height:1.3;display:block}
 .cat-name:hover{text-decoration:underline;text-underline-offset:3px}
-.cat-toggle{width:48px;background:transparent;border:none;border-left:1px solid rgba(255,255,255,.08);color:inherit;cursor:pointer;font-size:1.05rem;padding:0;display:flex;align-items:center;justify-content:center;transition:background .15s,transform .2s}
-.cat-toggle:hover{background:rgba(255,255,255,.1)}
-.cat-toggle[aria-expanded="true"]{transform:none}
-.cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
-.cat-arrow{display:inline-block;transition:transform .2s ease;font-size:.85rem}
+aside details summary{padding:.85rem 1.5rem;cursor:pointer;list-style:none;color:#E5E5E5;font-size:.92rem;display:flex;justify-content:space-between;align-items:center}
 .cat-sub{padding:.4rem 0 .8rem;background:rgba(0,0,0,.15)}
-.cat-sub a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
-.cat-sub a:hover{opacity:1;background:rgba(255,255,255,.05)}
-</style><style id="layout-override">
+.crumb-4d4b{font-size:.82rem;color:rgba(255,255,255,.85);margin-bottom:.8rem}
+.brand-logo::before{content:"+";color:#FFF;font-size:1.6rem;font-weight:300}</style><style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
   .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
-  .sidebar nav,.sidebar .nav{display:block!important}
-  .layout{display:grid!important;grid-template-columns:240px 1fr!important;gap:0!important;max-width:1200px!important;margin:0 auto!important;padding:2rem!important}
-  aside{align-self:start!important}
-  .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
-  .navbar .nav{display:flex!important;flex-wrap:nowrap!important;gap:1.2rem!important;align-items:center!important;overflow:visible!important;justify-content:space-between!important}
   main{flex:1!important;min-width:0!important}
-  body{background:#FAFAFA!important;color:#18181B!important}
-}
+  .navbar .nav{display:flex!important;flex-wrap:nowrap!important;gap:1.2rem!important;align-items:center!important;overflow:visible!important;justify-content:space-between!important}
+  .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
 img{max-width:100%!important;height:auto!important}
-</style><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://santiago.geotecnia1.biz/taludes/", "url": "https://santiago.geotecnia1.biz/taludes/", "name": "Taludes en Santiago – Chile", "inLanguage": "es", "description": "En Santiago, la estabilidad de laderas y cortes exige un conocimiento profundo de los suelos residuales de la Cordillera de la Costa y los depósitos fluvio", "isPartOf": {"@type": "WebSite", "@id":"https://santiago.geotecnia1.biz/#website-4d4b", "url": "https://santiago.geotecnia1.biz"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://santiago.geotecnia1.biz/"}, {"@type": "ListItem", "position": 2, "name": "Taludes", "item": "https://santiago.geotecnia1.biz/taludes/"}]}, {"@type": "ItemList", "name": "Taludes", "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://santiago.geotecnia1.biz/estabilidad-taludes/", "name": "Análisis de estabilidad de taludes"}, {"@type": "ListItem", "position": 2, "url": "https://santiago.geotecnia1.biz/geoceldas/", "name": "Diseño con geoceldas"}, {"@type": "ListItem", "position": 3, "url": "https://santiago.geotecnia1.biz/muros-contencion/", "name": "Diseño de muros de contención"}, {"@type": "ListItem", "position": 4, "url": "https://santiago.geotecnia1.biz/deslizamientos/", "name": "Evaluación de deslizamientos"}, {"@type": "ListItem", "position": 5, "url": "https://santiago.geotecnia1.biz/monitoreo-taludes/", "name": "Monitoreo geotécnico de taludes (mensual)"}]}]}</script></head><body>
+  aside{align-self:start!important}
+  .layout{display:grid!important;grid-template-columns:240px 1fr!important;gap:0!important;max-width:1200px!important;margin:0 auto!important;padding:2rem!important}
+  body{background:#FAFAFA!important;color:#18181B!important}
+  .sidebar nav,.sidebar .nav{display:block!important}</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://santiago.geotecnia1.biz/taludes/","description":"En Santiago, la estabilidad de laderas y cortes exige un conocimiento profundo de los suelos residuales de la Cordillera de la Costa y los depósitos fluvio","inLanguage":"es","@type":"WebPage","name":"Taludes en Santiago – Chile","url":"https://santiago.geotecnia1.biz/taludes/","isPartOf":{"url":"https://santiago.geotecnia1.biz","@id":"https://santiago.geotecnia1.biz/#website-4d4b","@type":"WebSite"}},{"itemListElement":[{"name":"Home","position":1,"item":"https://santiago.geotecnia1.biz/","@type":"ListItem"},{"name":"Taludes","position":2,"item":"https://santiago.geotecnia1.biz/taludes/","@type":"ListItem"}],"@type":"BreadcrumbList"},{"itemListElement":[{"url":"https://santiago.geotecnia1.biz/estabilidad-taludes/","name":"Análisis de estabilidad de taludes","position":1,"@type":"ListItem"},{"url":"https://santiago.geotecnia1.biz/geoceldas/","name":"Diseño con geoceldas","position":2,"@type":"ListItem"},{"url":"https://santiago.geotecnia1.biz/muros-contencion/","name":"Diseño de muros de contención","position":3,"@type":"ListItem"},{"url":"https://santiago.geotecnia1.biz/deslizamientos/","name":"Evaluación de deslizamientos","position":4,"@type":"ListItem"},{"url":"https://santiago.geotecnia1.biz/monitoreo-taludes/","name":"Monitoreo geotécnico de taludes (mensual)","position":5,"@type":"ListItem"}],"@type":"ItemList","name":"Taludes"}]}</script></head><body>
 
 <header class="header">
     <div class="header-top">
@@ -110,7 +107,7 @@ img{max-width:100%!important;height:auto!important}
         </div>
         <a href="mailto:contacto@geotecnia1.biz" class="header-email">contacto@geotecnia1.biz</a>
     </div>
-    <div class="crumb"><a href="/">Inicio</a> › <a href="#">Cimentaciones</a> › <span>Análisis de asentamiento diferencial</span></div>
+    <div class="crumb-4d4b"><a href="/">Inicio</a> › <a href="#">Cimentaciones</a> › <span>Análisis de asentamiento diferencial</span></div>
     <h1>Taludes en Santiago</h1>
 </header>
 
@@ -119,52 +116,14 @@ img{max-width:100%!important;height:auto!important}
     <main>
         <p>En Santiago, la estabilidad de laderas y cortes exige un conocimiento profundo de los suelos residuales de la Cordillera de la Costa y los depósitos fluvio-glaciales que caracterizan la cuenca. Las intervenciones deben ajustarse a las exigencias de la NCh 3262 para diseño sísmico y a la práctica local derivada de la Ordenanza General de Urbanismo y Construcciones. Esta categoría aborda desde la caracterización geotécnica hasta la verificación de factores de seguridad, partiendo por un riguroso <a href="estabilidad-taludes">análisis de estabilidad de taludes</a> y apoyándose en soluciones como el <a href="geoceldas">diseño con geoceldas</a> para control de erosión superficial en pendientes pronunciadas.</p>
 
-<p>Proyectos viales en el acceso oriente, excavaciones para edificaciones en el sector nororiente y la habilitación de plataformas en condominios de ladera requieren estos estudios de manera obligatoria. La complejidad sísmica y las lluvias concentradas obligan a complementar con un <a href="deslizamientos">evaluación de deslizamientos</a> para identificar mecanismos de falla retrogresiva. Un correcto dimensionamiento de estructuras de contención, integrando <a href="muros-contencion">diseño de muros de contención</a>, es la clave para garantizar la seguridad operacional a largo plazo.</p><figure style="margin:1.5rem auto;max-width:720px;text-align:center"><img src="../img/asentamiento-diferencial-2.webp" loading="lazy" decoding="async" width="800" height="600" alt="Imagen ilustrativa de Asentamiento diferencial en Santiago" style="width:100%;height:auto;display:block;border-radius:8px;border:1px solid #E5E7EB"></figure>
-
-        <blockquote style="border-left:4px solid #A16207;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">En Santiago, la variabilidad lateral de suelos aluviales puede producir asientos diferenciales de hasta 5 cm entre columnas vecinas.</blockquote>
-
-        
-
-        <h2>Metodología y alcance</h2><div>Entre Vitacura y Pudahuel hay un contraste de suelo enorme: gravas cementadas en el primer caso, arcillas expansivas en el segundo. El análisis de asentamiento diferencial evalúa la compresibilidad de cada estrato y su variación lateral. El procedimiento incluye: <ul><li>Extracción de muestras inalteradas en calicatas y sondeos</li><li>Edómetros para determinar módulo edométrico y coeficiente de consolidación</li><li>Cálculo de asientos inmediatos y por consolidación secundaria</li></ul>Para suelos finos de la zona sur, el <a href="../corte-directo/">corte directo</a> ayuda a modelar la resistencia al corte en condiciones drenadas. Un diagnóstico temprano evita sobrecostos en fundaciones.</div>
-        <figure style="margin:1.5rem auto;max-width:60%;border-radius:6px;overflow:hidden;border:1px solid #E5E5E5"></figure>
-        <h2>Consideraciones locales</h2><p>La norma NCh433.Of2012 exige verificar asientos diferenciales en estructuras de categoría sísmica alta. En Santiago, la zona centro y sur presenta arcillas lacustres con alta compresibilidad. Si el análisis de asentamiento diferencial se omite, pueden aparecer fisuras en tabiques, desniveles en losas y fallas en sistemas de tuberías. El <a href="../estudio-mecanica-suelos/"><a href="../estudio-mecanica-suelos/" data-interlink="1">estudio de mecánica de suelos</a></a> completo integra este análisis con la capacidad portante y la respuesta sísmica local.</p>
-
-        
-    <section class="block mid-cta" style="padding:2rem 0">
+<p>Proyectos viales en el acceso oriente, excavaciones para edificaciones en el sector nororiente y la habilitación de plataformas en condominios de ladera requieren estos estudios de manera obligatoria. La complejidad sísmica y las lluvias concentradas obligan a complementar con un <a href="deslizamientos">evaluación de deslizamientos</a> para identificar mecanismos de falla retrogresiva. Un correcto dimensionamiento de estructuras de contención, integrando <a href="muros-contencion">diseño de muros de contención</a>, es la clave para garantizar la seguridad operacional a largo plazo.</p>
+<section class="block mid-cta-4d4b" style="padding:2rem 0">
       <div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#A1620715,#A1620708);border-left:4px solid #A16207;padding:1.5rem 1.8rem;border-radius:6px;text-align:center">
         <h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">¿Necesita una evaluación geotécnica?</h3>
         <p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Respuesta en menos de 24h.</p>
         <a href="https://wa.me/56977092993" style="display:inline-block;background:#25D366;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(37,211,102,.25)">WhatsApp directo: +56 9 7709 2993</a><p style="margin:.6rem 0 0;color:#64748B;font-size:.85rem;font-style:italic;text-align:center">La forma más rápida de cotizar</p><p style="margin:1rem 0 0;color:#1E293B;font-size:.92rem;text-align:center">Email: <a href="mailto:contacto@geotecnia1.biz" style="color:#A16207;text-decoration:underline;font-weight:600">contacto@geotecnia1.biz</a></p>
       </div>
     </section>
-
-        
-
-        <h2>Normativa aplicable</h2><p>NCh433.Of2012 — Diseño sísmico de edificios (verificación de asientos diferenciales), NCh 3221 — Ensayo de consolidación unidimensional (edómetro), NCh1508.Of2008 — Geotecnia — Clasificación de suelos y ensayos de laboratorio</p>
-
-        
-    <section class="block sub-services-block" style="padding:3.5rem 1.5rem">
-      <style>
-        .sub-svc-grid { display:flex; flex-wrap:wrap; gap:1.5rem; margin-top:1.5rem; justify-content:center; }
-        .sub-svc-grid > .sub-svc, .sub-svc-grid > a.sub-svc { flex:0 0 calc(50% - 0.75rem); min-width:220px; padding:1rem 1.2rem; border:1px solid #E5E7EB; border-radius:10px; background:#FFFFFF; transition:border-color .18s ease, box-shadow .18s ease, transform .18s ease; position:relative; }
-        .sub-svc-grid > a.sub-svc-link { display:block; text-decoration:none; color:inherit; cursor:pointer; }
-        .sub-svc-grid > a.sub-svc-link:hover { border-color:#A16207; box-shadow:0 4px 14px rgba(0,0,0,.08); transform:translateY(-2px); }
-        .sub-svc-grid > a.sub-svc-link:hover h3 { color:#A16207; }
-        .sub-svc-grid > a.sub-svc-link:hover .sub-svc-arrow { transform:translateX(4px); opacity:1; }
-        .sub-svc-arrow { position:absolute; right:1rem; bottom:.9rem; color:#A16207; font-weight:700; font-size:1.1rem; opacity:.6; transition:transform .18s ease, opacity .18s ease; }
-      </style>
-      <div style="max-width:1200px;margin:0 auto">
-        <h2 style="margin-bottom:1.5rem;font-weight:700">Servicios técnicos asociados</h2>
-        <div class="sub-svc-grid">
-          <div class="sub-svc"><div class="sub-svc-num" style="color:#A16207;font-weight:700;font-size:.85rem;letter-spacing:.1em">01</div><h3 style="color:#14532D;font-size:1.1rem;margin:.3rem 0 .5rem">Modelación numérica de asientos</h3><p style="color:#333;line-height:1.65;font-size:.93rem">Uso de software geotécnico (PLAXIS, Settle3) para predecir asientos totales y diferenciales bajo cargas de proyecto. Se calibra con datos de edómetros y SPT de la zona.</p></div><div class="sub-svc"><div class="sub-svc-num" style="color:#A16207;font-weight:700;font-size:.85rem;letter-spacing:.1em">02</div><h3 style="color:#14532D;font-size:1.1rem;margin:.3rem 0 .5rem">Ensayos de consolidación en laboratorio</h3><p style="color:#333;line-height:1.65;font-size:.93rem">Edómetros de deformación controlada (CRS) y convencionales para determinar Cc, Cv y módulo edométrico en muestras inalteradas de arcillas santiaguinas.</p></div><div class="sub-svc"><div class="sub-svc-num" style="color:#A16207;font-weight:700;font-size:.85rem;letter-spacing:.1em">03</div><h3 style="color:#14532D;font-size:1.1rem;margin:.3rem 0 .5rem">Monitoreo de asientos con topografía de precisión</h3><p style="color:#333;line-height:1.65;font-size:.93rem">Instalación de puntos de control y nivelación diferencial durante la construcción. Se comparan lecturas con valores predichos para ajustar el modelo si es necesario.</p></div>
-        </div>
-      </div>
-    </section>
-
-        <h2>Parámetros típicos</h2><div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #A16207;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#A16207;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Parámetro</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Valor típico</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Módulo edométrico (Eed)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">5 – 80 MPa (depende de gravas vs. arcillas)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Índice de compresión (Cc)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">0.1 – 0.4 (arcillas de la zona poniente)</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Coeficiente de consolidación (Cv)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">1×10⁻⁴ – 5×10⁻³ cm²/s</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Asiento inmediato (Si)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">0.5 – 3 cm (cargas típicas de 200 kPa)</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Asiento por consolidación (Sc)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">2 – 10 cm (arcillas saturadas)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Factor de seguridad diferencial (FSδ)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">≥ 1.5 según NCh433.Of2012</td></tr></tbody></table></div>
-
-        <h2>Preguntas frecuentes</h2><details class="faq"><summary>¿Qué diferencia hay entre asentamiento total y diferencial?</summary><p>El asentamiento total es el hundimiento uniforme de toda la estructura; el diferencial es la diferencia de hundimiento entre dos puntos (ej: columnas). El diferencial genera esfuerzos internos que pueden agrietar elementos no estructurales y estructurales. Por eso la NCh433 exige limitarlo a valores según el tipo de edificación.</p></details><details class="faq"><summary>¿En qué zonas de Santiago es más crítico el asentamiento diferencial?</summary><p>Las zonas con arcillas lacustres de alta compresibilidad —sectores de Maipú, Cerrillos, Pudahuel y La Pintana— presentan mayor riesgo. También es crítico en rellenos artificiales de la ribera del Mapocho y en terrenos con alternancia de gravas y limos (barrios de la comuna de Santiago centro).</p></details><details class="faq"><summary>¿Cuánto cuesta un análisis de asentamiento diferencial en Santiago?</summary><p>El rango referencial para un estudio básico con 3 puntos de control y ensayos edométricos es entre $298.000 y $1.006.000. Varía según la cantidad de sondeos, profundidad y ensayos adicionales (SPT, CPT). Se recomienda solicitar cotización con el perfil de cargas del proyecto.</p></details><details class="faq"><summary>¿Qué normativa rige este análisis en Chile?</summary><p>La NCh433.Of2012 establece límites de asiento diferencial según la categoría de la edificación. También se aplican las guías del Manual de Carreteras (vol. 3) para obras viales y la NCh1508 para clasificación de suelos. Los ensayos de laboratorio siguen normas ASTM (D2435, D2436).</p></details>
-    
 <section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Servicios disponibles</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../estabilidad-taludes/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Análisis de estabilidad de taludes</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../geoceldas/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Diseño con geoceldas</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../muros-contencion/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Diseño de muros de contención</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../deslizamientos/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Evaluación de deslizamientos</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../monitoreo-taludes/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Monitoreo geotécnico de taludes (mensual)</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
 </div>
 
@@ -196,7 +155,7 @@ img{max-width:100%!important;height:auto!important}
 <link rel="stylesheet" href="/css/leaflet-4d4b.css"/>
 <script src="/js/leaflet-4d4b.js"></script>
 <script>
-(function(){function init(){if(typeof L==="undefined"){setTimeout(init,200);return;}var el=document.getElementById("map-leaflet");if(!el)return;var map=L.map(el).setView([-33.4376995,-70.6510671],12);L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"© OpenStreetMap",maxZoom:18}).addTo(map);L.marker([-33.4376995,-70.6510671]).addTo(map).bindPopup("Santiago").openPopup();}if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",init);}else{init();}})();
+(function(){function init(){if(typeof L==="undefined"){setTimeout(init,200);return;}var el=document.getElementById("map-leaflet");if(!el)return;var map=L.map(el).setView([-33.4376995,-70.6510671],12);L.tileLayer("https://{s}.tile-4d4b.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"© OpenStreetMap",maxZoom:18}).addTo(map);L.marker([-33.4376995,-70.6510671]).addTo(map).bindPopup("Santiago").openPopup();}if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",init);}else{init();}})();
 </script><footer style="background:#14532D;color:rgba(255,255,255,.85);padding:2rem 1.5rem;text-align:center;font-size:.92rem">Santiago, Chile · <a href="mailto:contacto@geotecnia1.biz" style="color:#FFF;text-decoration:underline">contacto@geotecnia1.biz</a><div data-updated="2026-04-12" style="font-size:.78rem;color:rgba(255,255,255,.6);margin-top:.8rem">Última actualización: 2026-03-03</div><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Referencias técnicas:</strong> <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocódigo 7</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotécnica</a> · <a href="https://www.aenor.com/" rel="nofollow noopener" target="_blank">AENOR (España)</a></div></footer>
 
 <script>(function(){document.querySelectorAll(".cat-toggle").forEach(function(b){b.addEventListener("click",function(e){e.preventDefault();var s=b.parentElement.parentElement.querySelector(".cat-sub");var ex=b.getAttribute("aria-expanded")==="true";b.setAttribute("aria-expanded",!ex);if(s){s.hidden=ex;}});});})();</script></body></html>

@@ -11,5 +11,10 @@
       "sizes": "any",
       "type": "image/svg+xml"
     }
-  ]
+  ],
+  "lang": "es",
+  "orientation": "portrait",
+  "scope": "/",
+  "description": "Servicios geotécnicos profesionales en Santiago, Chile. Estudios de suelo, ensayos y consultoría técnica.",
+  "id": "/santiago-5801"
 }
