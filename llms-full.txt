@@ -1,39 +1,51 @@
-# Santiago
+# Geotecnia1 — Santiago
 
-> Geotechnical engineering company in Chile, providing professional services in soil mechanics, foundation engineering and site investigation.
+> Geotechnical engineering services in Santiago, Chile.
 
 ## Services
-- [Asentamiento Diferencial](https://santiago.geotecnia1.biz/asentamiento-diferencial/)
-- [Asentamientos](https://santiago.geotecnia1.biz/asentamientos/)
+- [Aislacion Sismica](https://santiago.geotecnia1.biz/aislacion-sismica/)
+- [Anclajes](https://santiago.geotecnia1.biz/anclajes/)
+- [Calicatas](https://santiago.geotecnia1.biz/calicatas/)
+- [Cbr Vial](https://santiago.geotecnia1.biz/cbr-vial/)
 - [Cimentaciones](https://santiago.geotecnia1.biz/cimentaciones/)
-- [Corte Directo](https://santiago.geotecnia1.biz/corte-directo/)
-- [Deslizamientos](https://santiago.geotecnia1.biz/deslizamientos/)
-- [Drenaje Vial](https://santiago.geotecnia1.biz/drenaje-vial/)
+- [Columnas Grava](https://santiago.geotecnia1.biz/columnas-grava/)
+- [Densidad Cono Arena](https://santiago.geotecnia1.biz/densidad-cono-arena/)
 - [Ensayo Cpt](https://santiago.geotecnia1.biz/ensayo-cpt/)
-- [Ensayo Spt](https://santiago.geotecnia1.biz/ensayo-spt/)
+- [Ensayos Proctor](https://santiago.geotecnia1.biz/ensayos-proctor/)
 - [Estabilidad Taludes](https://santiago.geotecnia1.biz/estabilidad-taludes/)
-- [Estudio Mecanica Suelos](https://santiago.geotecnia1.biz/estudio-mecanica-suelos/)
+- [Excavaciones Profundas](https://santiago.geotecnia1.biz/excavaciones-profundas/)
+- [Excavaciones Subterraneo](https://santiago.geotecnia1.biz/excavaciones-subterraneo/)
 - [Exploracion](https://santiago.geotecnia1.biz/exploracion/)
-- [Geoceldas](https://santiago.geotecnia1.biz/geoceldas/)
-- [Geofisica](https://santiago.geotecnia1.biz/geofisica/)
-- [Geomallas](https://santiago.geotecnia1.biz/geomallas/)
 - [Geotecnia Vial](https://santiago.geotecnia1.biz/geotecnia-vial/)
-- [Laboratorio](https://santiago.geotecnia1.biz/laboratorio/)
+- [Granulometria](https://santiago.geotecnia1.biz/granulometria/)
+- [Inyecciones](https://santiago.geotecnia1.biz/inyecciones/)
+- [Laboratorio In Situ](https://santiago.geotecnia1.biz/laboratorio-in-situ/)
+- [Laboratorio Lab](https://santiago.geotecnia1.biz/laboratorio-lab/)
 - [Licuefaccion](https://santiago.geotecnia1.biz/licuefaccion/)
+- [Limites Atterberg](https://santiago.geotecnia1.biz/limites-atterberg/)
+- [Losas Fundacion](https://santiago.geotecnia1.biz/losas-fundacion/)
+- [Masw](https://santiago.geotecnia1.biz/masw/)
 - [Mejoramiento](https://santiago.geotecnia1.biz/mejoramiento/)
-- [Monitoreo Taludes](https://santiago.geotecnia1.biz/monitoreo-taludes/)
+- [Microzonificacion Sismica](https://santiago.geotecnia1.biz/microzonificacion-sismica/)
+- [Monitoreo Excavaciones](https://santiago.geotecnia1.biz/monitoreo-excavaciones/)
 - [Muros Contencion](https://santiago.geotecnia1.biz/muros-contencion/)
 - [Pavimento Flexible](https://santiago.geotecnia1.biz/pavimento-flexible/)
+- [Pavimento Rigido](https://santiago.geotecnia1.biz/pavimento-rigido/)
+- [Permeabilidad In Situ](https://santiago.geotecnia1.biz/permeabilidad-in-situ/)
 - [Pilotes](https://santiago.geotecnia1.biz/pilotes/)
-- [Respuesta Sismica](https://santiago.geotecnia1.biz/respuesta-sismica/)
+- [Refraccion Sismica](https://santiago.geotecnia1.biz/refraccion-sismica/)
+- [Resistividad](https://santiago.geotecnia1.biz/resistividad/)
 - [Sismica](https://santiago.geotecnia1.biz/sismica/)
+- [Sondajes Spt](https://santiago.geotecnia1.biz/sondajes-spt/)
 - [Taludes](https://santiago.geotecnia1.biz/taludes/)
-- [Tomografia Sismica](https://santiago.geotecnia1.biz/tomografia-sismica/)
+- [Triaxial](https://santiago.geotecnia1.biz/triaxial/)
+- [Tuneles Suelo Blando](https://santiago.geotecnia1.biz/tuneles-suelo-blando/)
 - [Vibrocompactacion](https://santiago.geotecnia1.biz/vibrocompactacion/)
+- [Zapatas](https://santiago.geotecnia1.biz/zapatas/)
 
 ## Contact
 - Website: https://santiago.geotecnia1.biz/
 
 ## About
-This page provides information about geotechnical engineering services available in Chile.
-The company complies with local and international standards including ASTM, ISO and country-specific norms.
+This site provides geotechnical engineering services in Santiago, Chile.
+Compliant with local and international standards (ASTM, ISO, country-specific norms).

@@ -1,6 +1,6 @@
 {
-  "name": "Santiago",
-  "short_name": "Santiago",
+  "name": "Geotecnia1",
+  "short_name": "Geotecnia1",
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#0A2540",
@@ -11,10 +11,5 @@
       "sizes": "any",
       "type": "image/svg+xml"
     }
-  ],
-  "lang": "es",
-  "orientation": "portrait",
-  "scope": "/",
-  "description": "Servicios geotécnicos profesionales en Santiago, Chile. Estudios de suelo, ensayos y consultoría técnica.",
-  "id": "/santiago-5801"
+  ]
 }

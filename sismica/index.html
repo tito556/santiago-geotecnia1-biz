@@ -1,105 +1,578 @@
 <!DOCTYPE html>
 <html lang="es">
 <head><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg">
-<meta charset="UTF-8"><meta name="theme-color" content="#2F4F4F"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Sísmica en Santiago – Chile</title>
-<meta name="description" content="La sísmica en Santiago exige un conocimiento profundo de la geología de la cuenca, donde los suelos finos y los depósitos aluviales amplifican las ondas du">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sísmica en Santiago – Chile | Geotecnia profesional</title>
+<meta name="description" content="La sísmica en Santiago exige un conocimiento profundo de la respuesta dinámica de los suelos de la cuenca, condicionada por depósitos fluviales y cenizas v">
 <link rel="canonical" href="https://santiago.geotecnia1.biz/sismica/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Sísmica en Santiago – Chile">
-<meta property="og:description" content="La sísmica en Santiago exige un conocimiento profundo de la geología de la cuenca, donde los suelos finos y los depósitos aluviales amplifican las ondas du">
+<meta property="og:description" content="La sísmica en Santiago exige un conocimiento profundo de la respuesta dinámica de los suelos de la cuenca, condicionada por depósitos fluviales y cenizas v">
 <meta property="og:url" content="https://santiago.geotecnia1.biz/sismica/">
-<meta property="og:site_name" content="Geotecnia 1">
+<meta property="og:site_name" content="Geotecnia1">
 <meta property="og:locale" content="es_ES">
-<meta property="og:image" content="https://santiago.geotecnia1.biz/img/licuefaccion-1.webp">
+<meta property="og:image" content="https://santiago.geotecnia1.biz/img/aislacion-sismica-1.webp">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Sísmica en Santiago – Chile">
-<meta name="twitter:description" content="La sísmica en Santiago exige un conocimiento profundo de la geología de la cuenca, donde los suelos finos y los depósitos aluviales amplifican las ondas du">
-<meta name="twitter:image" content="https://santiago.geotecnia1.biz/img/licuefaccion-1.webp">
+<meta name="twitter:description" content="La sísmica en Santiago exige un conocimiento profundo de la respuesta dinámica de los suelos de la cuenca, condicionada por depósitos fluviales y cenizas v">
+<meta name="twitter:image" content="https://santiago.geotecnia1.biz/img/aislacion-sismica-1.webp">
 <style>
-@media(max-width:900px){.layout{grid-template-columns:1fr}
-.cat-toggle{width:48px;background:transparent;border:none;border-left:1px solid rgba(255,255,255,.08);color:inherit;cursor:pointer;font-size:1.05rem;padding:0;display:flex;align-items:center;justify-content:center;transition:background .15s,transform .2s}
-details.faq summary{font-weight:700;color:#14532D;list-style:none;font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;serif}
-.crumb-4d4b a:hover{color:#A16207}
-.brand-name{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;serif;font-weight:700;letter-spacing:.15em;font-size:1rem;color:#FFF}
-table th{background:#14532D;color:#FFF;text-align:left;padding:.7rem 1rem;font-size:.85rem;letter-spacing:.05em;font-weight:700}
-/* LAYOUT */
-.layout{display:grid;grid-template-columns:240px 1fr;gap:0;max-width:1200px;margin:0 auto;padding:2rem}
-footer a{color:#A16207}
-.header-email{color:#FFF;font-size:.88rem}
-details.faq p{color:#444;margin:0}
-/* MAIN */
-main{background:#FFF;padding:3rem 3rem;min-height:60vh}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Lato',Georgia,serif;background:#FEFCE8;color:#14532D;line-height:1.7;font-size:16px}
 a{color:#A16207;text-decoration:none}
-main p:first-child{font-size:1.05rem;color:#333}
+a:hover{color:#CA8A04}
 /* HEADER DARK */
 .header{background:#14532D;color:#FFF;padding:3rem 3rem 4rem}
-details.faq[open] summary{margin-bottom:.7rem;color:#CA8A04}
-.brand-city{font-size:.82rem;color:#888;margin-top:.2rem}
-.cat-toggle[aria-expanded="true"]{transform:none}
-table td{padding:.7rem 1rem;border-bottom:1px solid #E5E5E5;color:#14532D}
-
-
-
-
-table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;serif}
-footer{background:#14532D;color:#AAA;padding:2rem 3rem;font-size:.82rem;text-align:center;margin-top:3rem}
-.cat-row{display:flex;align-items:stretch;justify-content:space-between;background:transparent;transition:background .15s}
 .header-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:2.5rem}
-details.faq{background:#FAFAFA;border:1px solid #E5E5E5;padding:1rem 1.3rem;margin-bottom:.7rem;cursor:pointer}
-
-.cat-item{margin:0;border-bottom:1px solid rgba(255,255,255,.05)}
-/* SIDEBAR */
-aside{background:#14532D;color:#FFF;padding:1rem 0;align-self:start;position:sticky;top:1rem;border-radius:0}
-aside details summary .arr{color:#666;font-size:.75rem;transition:transform .2s}
-aside details[open] summary .arr{transform:rotate(90deg);color:#A16207}
-main h2{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;serif;font-weight:700;font-size:1.6rem;color:#14532D;margin:2rem 0 1rem;letter-spacing:.01em}
-a:hover{color:#CA8A04}
-.crumb-4d4b a{color:#FFF;text-decoration:underline;font-weight:600}aside{position:static}
-main p{margin-bottom:1.1rem;color:#333;line-height:1.75;text-align:justify;hyphens:auto;-webkit-hyphens:auto}
-.cat-arrow{display:inline-block;transition:transform .2s ease;font-size:.85rem}
-.cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
-aside details[open] summary{background:#181818;color:#A16207}
-aside details{border-bottom:1px solid #222}
-aside details summary::-webkit-details-marker{display:none}
-.header h1{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;serif;font-weight:700;font-size:clamp(2rem,4vw,2.8rem);color:#FFF;letter-spacing:-.01em;line-height:1.15}
-.cat-row:hover{background:rgba(255,255,255,.05)}
-.cat-sub a:hover{opacity:1;background:rgba(255,255,255,.05)}
-*{margin:0;padding:0;box-sizing:border-box}
-.cat-toggle:hover{background:rgba(255,255,255,.1)}
-body{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;Georgia,serif;background:#FEFCE8;color:#14532D;line-height:1.7;font-size:16px}
 .brand{display:flex;align-items:flex-start;gap:1rem}
+.brand-logo{width:50px;height:50px;border:2px solid #FFF;border-radius:50%;background:#A16207;position:relative;display:flex;align-items:center;justify-content:center;color:#FFF;font-size:1.4rem;font-weight:700;font-family:'Poppins',sans-serif}
 .brand-text{margin-top:.3rem}
-.sb-sub a:hover{color:#A16207;border-left-color:#A16207;background:#0F0F0F}
-.sb-home{display:block;padding:1rem 1.5rem;font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;serif;font-weight:700;color:#FFF;border-bottom:1px solid #222;letter-spacing:.02em}
-.sb-sub a{display:block;padding:.45rem 1.5rem .45rem 2rem;color:#BBB;font-size:.85rem;border-left:2px solid transparent}
-.cat-sub a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
-.sb-sub{background:#181818;padding:.3rem 0 .8rem}
-.brand-logo{width:50px;height:50px;border:2px solid #FFF;position:relative;display:flex;align-items:center;justify-content:center}
-.cat-name{flex:1;padding:.85rem 1.1rem;color:inherit;text-decoration:none;font-weight:600;line-height:1.3;display:block}
-.cat-name:hover{text-decoration:underline;text-underline-offset:3px}
-aside details summary{padding:.85rem 1.5rem;cursor:pointer;list-style:none;color:#E5E5E5;font-size:.92rem;display:flex;justify-content:space-between;align-items:center}
-.cat-sub{padding:.4rem 0 .8rem;background:rgba(0,0,0,.15)}
-.crumb-4d4b{font-size:.82rem;color:rgba(255,255,255,.85);margin-bottom:.8rem}
-.brand-logo::before{content:"+";color:#FFF;font-size:1.6rem;font-weight:300}</style><style>
-@media(min-width:901px){
-  .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
-  .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
-  main{flex:1!important;min-width:0!important}
-  .navbar .nav{display:flex!important;flex-wrap:nowrap!important;gap:1.2rem!important;align-items:center!important;overflow:visible!important;justify-content:space-between!important}
-  .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
-img{max-width:100%!important;height:auto!important}
-  aside{align-self:start!important}
-  .layout{display:grid!important;grid-template-columns:240px 1fr!important;gap:0!important;max-width:1200px!important;margin:0 auto!important;padding:2rem!important}
-  body{background:#FAFAFA!important;color:#18181B!important}
-  .sidebar nav,.sidebar .nav{display:block!important}</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://santiago.geotecnia1.biz/sismica/","description":"La sísmica en Santiago exige un conocimiento profundo de la geología de la cuenca, donde los suelos finos y los depósitos aluviales amplifican las ondas du","inLanguage":"es","@type":"WebPage","name":"Sísmica en Santiago – Chile","url":"https://santiago.geotecnia1.biz/sismica/","isPartOf":{"url":"https://santiago.geotecnia1.biz","@id":"https://santiago.geotecnia1.biz/#website-4d4b","@type":"WebSite"}},{"itemListElement":[{"name":"Home","position":1,"item":"https://santiago.geotecnia1.biz/","@type":"ListItem"},{"name":"Sísmica","position":2,"item":"https://santiago.geotecnia1.biz/sismica/","@type":"ListItem"}],"@type":"BreadcrumbList"},{"itemListElement":[{"url":"https://santiago.geotecnia1.biz/licuefaccion/","name":"Análisis de licuefacción de suelos","position":1,"@type":"ListItem"},{"url":"https://santiago.geotecnia1.biz/respuesta-sismica/","name":"Análisis de respuesta sísmica del sitio","position":2,"@type":"ListItem"}],"@type":"ItemList","name":"Sísmica"}]}</script></head><body>
+.brand-name{font-family:'Poppins',serif;font-weight:700;letter-spacing:.15em;font-size:1rem;color:#FFF}
+.brand-city{font-size:.82rem;color:#888;margin-top:.2rem}
+.header-email{color:#FFF;font-size:.88rem}
+.crumb{font-size:.82rem;color:rgba(255,255,255,.85);margin-bottom:.8rem}
+.crumb a{color:#FFF;text-decoration:underline;font-weight:600}
+.crumb a:hover{color:#A16207}
+.header h1{font-family:'Poppins',serif;font-weight:700;font-size:clamp(2rem,4vw,2.8rem);color:#FFF;letter-spacing:-.01em;line-height:1.15}
+/* LAYOUT */
+.layout{display:grid;grid-template-columns:240px 1fr;gap:0;max-width:1200px;margin:0 auto;padding:2rem}
+/* SIDEBAR — modern clean */
+aside{background:#FFFFFF;color:#1F2937;padding:0;align-self:start;position:sticky;top:1rem;border-radius:8px;overflow:hidden;border:1px solid #E5E7EB;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+.sb-home{display:block;padding:1rem 1.25rem;font-family:'Poppins',serif;font-weight:700;color:#FFF;background:#14532D;letter-spacing:.02em;text-decoration:none;font-size:1rem}
+.sb-home:hover{color:#A16207}
+.cat-item{border-bottom:1px solid #F3F4F6}
+.cat-item:last-child{border-bottom:none}
+.cat-row{display:flex;align-items:stretch;justify-content:space-between;min-height:42px}
+.cat-name{flex:1;padding:.7rem 1.25rem;color:#1F2937;font-size:.92rem;font-weight:600;text-decoration:none;line-height:1.3;display:flex;align-items:center}
+.cat-name:hover{color:#A16207;background:#F9FAFB}
+.cat-toggle{background:transparent;border:none;border-left:1px solid #F3F4F6;padding:0 .9rem;cursor:pointer;color:#9CA3AF;display:flex;align-items:center;justify-content:center;transition:color .15s}
+.cat-toggle:hover{color:#A16207;background:#F9FAFB}
+.cat-arrow{display:inline-flex;align-items:center;transition:transform .2s}
+.cat-arrow svg{width:10px;height:10px;display:block}
+.cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
+.cat-sub{background:#F9FAFB;padding:.25rem 0 .5rem;border-top:1px solid #F3F4F6}
+.cat-sub a{display:block;padding:.5rem 1.25rem .5rem 2rem;color:#4B5563;font-size:.85rem;text-decoration:none;border-left:2px solid transparent;line-height:1.4}
+.cat-sub a:hover{color:#A16207;border-left-color:#A16207;background:#F3F4F6}
+/* MAIN */
+main{background:#FFF;padding:3rem 3rem;min-height:60vh}
+main h2{font-family:'Poppins',serif;font-weight:700;font-size:1.6rem;color:#14532D;margin:2rem 0 1rem;letter-spacing:.01em}
+main p{margin-bottom:1.1rem;color:#333;line-height:1.75;text-align:justify;hyphens:auto;-webkit-hyphens:auto}
+main p:first-child{font-size:1.05rem;color:#333}
+.cta{background:#14532D;color:#FFF;padding:2rem;text-align:center;margin:2rem 0;border-radius:0}
+.cta h3{font-family:'Poppins',serif;font-size:1.4rem;margin-bottom:.7rem;color:#FFF !important}
+.cta p{color:#FFF !important;text-align:center !important}
+.cta a{color:#A16207;font-weight:600}
+table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-family:'Lato',serif}
+table th{background:#14532D;color:#FFF;text-align:left;padding:.7rem 1rem;font-size:.85rem;letter-spacing:.05em;font-weight:700}
+table td{padding:.7rem 1rem;border-bottom:1px solid #E5E5E5;color:#14532D}
+details.faq{background:#FAFAFA;border:1px solid #E5E5E5;padding:1rem 1.3rem;margin-bottom:.7rem;cursor:pointer}
+details.faq summary{font-weight:700;color:#14532D;list-style:none;font-family:'Poppins',serif}
+details.faq[open] summary{margin-bottom:.7rem;color:#CA8A04}
+details.faq p{color:#444;margin:0}
+footer{background:#14532D;color:#AAA;padding:2rem 3rem;font-size:.82rem;text-align:center;margin-top:3rem}
+footer a{color:#A16207}
+@media(max-width:900px){.layout{grid-template-columns:1fr}aside{position:static}}
+</style><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://santiago.geotecnia1.biz/sismica/", "url": "https://santiago.geotecnia1.biz/sismica/", "name": "Sísmica en Santiago – Chile", "inLanguage": "es", "description": "La sísmica en Santiago exige un conocimiento profundo de la respuesta dinámica de los suelos de la cuenca, condicionada por depósitos fluviales y cenizas v", "isPartOf": {"@type": "WebSite", "@id": "https://santiago.geotecnia1.biz/#website", "url": "https://santiago.geotecnia1.biz"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://santiago.geotecnia1.biz/"}, {"@type": "ListItem", "position": 2, "name": "Sísmica", "item": "https://santiago.geotecnia1.biz/sismica/"}]}, {"@type": "ItemList", "name": "Sísmica", "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://santiago.geotecnia1.biz/licuefaccion/", "name": "Análisis de licuefacción de suelos"}, {"@type": "ListItem", "position": 2, "url": "https://santiago.geotecnia1.biz/aislacion-sismica/", "name": "Diseño de aislación sísmica de base"}, {"@type": "ListItem", "position": 3, "url": "https://santiago.geotecnia1.biz/microzonificacion-sismica/", "name": "Microzonificación sísmica"}]}]}</script><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#0F766E"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><style id="fase-i-fixes">
+/* I-1/2/3 ya en layout_common.py (map marker SVG) */
+/* I-4/5: navbar overflow + position:fixed + body padding-top para evitar overlap */
+nav.navbar,.header-top,.main-header{position:fixed !important;top:0 !important;left:0 !important;right:0 !important;z-index:1010 !important}
+body{padding-top:60px;overflow-x:clip;max-width:100vw}
+body>*{max-width:100vw}
+.hero,.hero-inner,header.hero{padding-top:1rem !important}
+@media (max-width:900px){body{padding-top:90px}aside{width:100% !important;position:static !important;height:auto !important}.navbar{flex-wrap:wrap}}
+/* I-4: navbar compacto */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+/* I-6: sidebar hover adaptive (works both light + dark sidebars) */
+aside .cat-name:hover,aside .sb-home:hover,aside .cat-sub-wrap a:hover,
+aside nav a:hover{color:inherit !important;text-decoration:underline !important;text-underline-offset:3px}
+aside .cat-name,aside .sb-home,aside nav a{color:inherit}
+aside .cat-name:hover,aside .sb-home:hover{background:rgba(127,127,127,.12) !important}
+aside .cat-sub-wrap a:hover{background:rgba(127,127,127,.08) !important}
+/* I-7: cat-toggle no-box (sidebar Aberdeen) */
+.cat-toggle{width:auto !important;min-width:32px;border:none !important;border-left:none !important;background:transparent !important;box-shadow:none !important;padding:.3rem .5rem !important}
+.cat-toggle:hover{background:rgba(127,127,127,.12) !important}
+.cat-arrow{display:inline-block}
+/* I-8: nav-arrow no-box (navbar SRF) */
+.nav-arrow,.nav-arrow:hover,.nav-arrow:focus{background:transparent !important;border:none !important;outline:none !important;padding:0 .15rem !important;color:inherit !important;cursor:pointer !important;box-shadow:none !important}
+/* Inline links visible en prosa */
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#1d4ed8) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="post-fixes-v2">
+/* Inline links visibles en prosa */
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn){color:var(--accent,#1d4ed8) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn):hover{text-decoration-color:currentColor;opacity:.85}
+/* Sidebar hover adaptive */
+aside .cat-name:hover,aside .sb-home:hover,aside .cat-sub-wrap a:hover,
+aside nav a:hover{color:inherit !important;text-decoration:underline !important;text-underline-offset:3px}
+aside .cat-name,aside .sb-home,aside nav a{color:inherit}
+aside .cat-name:hover,aside .sb-home:hover{background:rgba(127,127,127,.12) !important}
+/* Cat-toggle sin caja */
+.cat-toggle{width:auto !important;min-width:32px;border:none !important;border-left:none !important;background:transparent !important;box-shadow:none !important;padding:.3rem .5rem !important}
+.cat-toggle:hover{background:rgba(127,127,127,.12) !important}
+/* Nav-arrow sin caja */
+.nav-arrow,.nav-arrow:hover,.nav-arrow:focus{background:transparent !important;border:none !important;outline:none !important;padding:0 .15rem !important;color:inherit !important;cursor:pointer !important;box-shadow:none !important}
+/* Navbar compacto */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+/* Layout defensive */
+body{overflow-x:clip;max-width:100vw}
+body>*{max-width:100vw}
+</style>
+<style id="nav-fix-v3">
+/* Navbar font + contraste */
+nav.navbar, header nav, .nav-bar, .top-nav {
+  font-size: 1rem !important;
+}
+nav.navbar a, header nav a, .nav-bar a, .top-nav a, .nav-cat-link, .nav-item a {
+  font-size: 1rem !important;
+  color: #FFFFFF !important;
+  font-weight: 500 !important;
+}
+nav.navbar a:hover, header nav a:hover, .nav-cat-link:hover {
+  color: #FCD34D !important;
+  text-decoration: underline;
+}
+/* Breadcrumb sobre dark */
+nav[aria-label="breadcrumb"], .crumb, .breadcrumb {
+  color: rgba(255,255,255,.85) !important;
+  font-size: .82rem !important;
+}
+nav[aria-label="breadcrumb"] a, .crumb a, .breadcrumb a {
+  color: #FFFFFF !important;
+  text-decoration: underline;
+  font-weight: 600;
+}
+nav[aria-label="breadcrumb"] a:hover, .crumb a:hover {
+  color: #FCD34D !important;
+}
+/* Home link explicito (caso del screenshot) */
+.crumb a[href="/"], .breadcrumb a[href="/"], a.home-link {
+  color: #FFFFFF !important;
+}
+/* Brand-name siempre legible */
+.brand-name, .logo-text, .main, .brand {
+  color: #FFFFFF !important;
+}
+</style>
+<style id="comprehensive-defaults-v1">
+/* Reset basico */
+* { box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; margin: 0; line-height: 1.6; color: #1E293B; background: #F8FAFC; }
+
+/* Layout wrapper */
+.layout, .main-wrapper, .content-area { max-width: 1280px; margin: 0 auto; padding: 0 1.5rem; }
+
+/* Header */
+.header, .main-header, header.main-header { background: #0F172A; color: #FFF; padding: 1rem 1.5rem; margin-bottom: 1.5rem; }
+.header-top { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+.header-email { color: #FCD34D; text-decoration: none; }
+.brand, .brand-text, .brand-name { color: #FFFFFF; font-weight: 700; font-size: 1.25rem; line-height: 1.1; }
+.brand-city { color: #94A3B8; font-size: .85rem; display: block; }
+.brand-logo { display: inline-block; vertical-align: middle; }
+
+/* Breadcrumb / crumb */
+.crumb, .breadcrumb { padding: .5rem 0; font-size: .85rem; color: rgba(255,255,255,.85); }
+.crumb a, .breadcrumb a { color: #FFFFFF; text-decoration: underline; }
+.crumb a:hover, .breadcrumb a:hover { color: #FCD34D; }
+
+/* Body wrapper - layout flex */
+.layout { display: grid; grid-template-columns: 240px 1fr; gap: 1.5rem; margin: 1.5rem auto; padding: 0 1.5rem; max-width: 1280px; }
+@media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
+
+/* Sidebar */
+.sb-home, .sidebar, aside { background: #1E293B; color: #FFFFFF; border-radius: 10px; padding: 1rem; }
+.sb-home a, .sidebar a, aside a { color: #FFFFFF; text-decoration: none; display: block; padding: .5rem .75rem; border-radius: 6px; transition: background .15s; }
+.sb-home a:hover, .sidebar a:hover { background: rgba(255,255,255,.08); }
+.cat-row, .cat-item { display: flex; align-items: center; justify-content: space-between; padding: .4rem .75rem; }
+.cat-name { color: #FFFFFF; font-weight: 500; flex: 1; }
+.cat-toggle, .cat-arrow { background: transparent; border: 0; color: #FFFFFF; cursor: pointer; padding: .2rem .4rem; }
+.cat-sub { padding-left: 1rem; }
+.cat-sub a { font-size: .85rem; color: rgba(255,255,255,.85); padding: .3rem .75rem; }
+
+/* Block / section base */
+.block { padding: 2rem 1.5rem; }
+.block > div { max-width: 1200px; margin: 0 auto; }
+.map-block { padding: 2rem 0; background: #F1F5F9; }
+.map-wrap { max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
+#mapa-ciudad { width: 100%; height: 380px; border-radius: 8px; }
+
+/* Cards / grid */
+.cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.card { background: #FFF; border: 1px solid #E5E7EB; border-radius: 10px; padding: 1.2rem; text-decoration: none; color: inherit; box-shadow: 0 1px 2px rgba(0,0,0,.04); transition: all .2s; }
+.card:hover { transform: translateY(-2px); box-shadow: 0 4px 14px rgba(0,0,0,.08); border-color: #1D4ED8; }
+
+/* H1/H2 */
+h1 { color: #0F172A; font-size: 1.85rem; margin: 1rem 0 1.5rem; line-height: 1.2; }
+h2 { color: #1E293B; font-size: 1.35rem; margin: 1.5rem 0 .8rem; font-weight: 700; }
+h3 { color: #1E293B; font-size: 1.1rem; margin: 1rem 0 .5rem; }
+p { margin: 0 0 1rem; color: #374151; }
+a { color: #1D4ED8; }
+
+/* Mid CTA */
+.mid-cta { padding: 2rem 0; }
+.mid-cta > div { max-width: 720px; margin: 0 auto; background: linear-gradient(135deg, #1D4ED815, #1D4ED808); border-left: 4px solid #1D4ED8; padding: 1.6rem 1.8rem; border-radius: 8px; text-align: center; }
+
+/* Footer */
+footer, .footer { background: #0F172A; color: #94A3B8; padding: 1.5rem; text-align: center; margin-top: 2rem; font-size: .85rem; }
+footer a, .footer a { color: #FCD34D; }
+
+/* Authority refs */
+.authority-refs { color: #94A3B8; font-size: .8rem; }
+.updated-info { color: #94A3B8; font-size: .8rem; font-style: italic; }
+</style>
+<style id="critical-visual-fix-v1">
+/* Sidebar: ancho 260px + adaptive font size */
+.sb-home, .sidebar, aside.sidebar, aside { width: 260px !important; }
+.sb-home .cat-row, .sidebar .cat-row, aside .cat-row, .nav-cat-row { font-size: .92rem; line-height: 1.25; }
+.sb-home .cat-name, .sidebar .cat-name, .cat-name { font-size: .92rem; line-height: 1.25; word-break: keep-all; hyphens: auto; }
+/* Labels muy largos: font-size más chico */
+.cat-name:where(:has(*)),
+.cat-row a, .nav-cat-link { white-space: normal; }
+
+/* Remover email sticky position:fixed (debe estar en flow del header) */
+.header-email[style*="position:fixed"],
+.header-email[style*="position: fixed"],
+a.header-email:where([href^="mailto:"]):not(footer a):not(.mid-cta a) { position: static !important; }
+header .header-email, header a[href^="mailto:"] { position: static !important; top: auto !important; right: auto !important; }
+
+/* Brand contrast: text-shadow para legibilidad */
+.brand, .brand-name, .brand-text, .logo-text, .main-header .brand {
+  text-shadow: 0 1px 3px rgba(0,0,0,.7);
+  color: #FFFFFF !important;
+}
+
+/* Header z-index alto (sobre map/content) */
+header, .header, .main-header, .top-header { position: relative; z-index: 100; }
+
+/* Map z-index bajo (debajo de navbar) */
+#mapa-ciudad, .map-block { z-index: 1; position: relative; }
+.leaflet-pane { z-index: 2; }
+
+/* Email contacto en navbar: contraste + visibilidad */
+.header-email, header .header-email, header a[href^="mailto:"] {
+  color: #FCD34D !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  font-weight: 500;
+}
+
+/* Servicios card grid: no incluir folders garbage */
+.cards-grid .card[href$="/css/"],
+.cards-grid .card[href$="/js/"],
+.cards-grid .card[href$="/img/"],
+.cards-grid .card[href$="/leaflet/"] { display: none !important; }
+
+/* Hero image santiago: contain en lugar de cover */
+.hero-bg, .hero-image { object-fit: contain; }
+</style>
+<style id="critical-fix-v2">
+/* Header NO sticky en sub layouts */
+header.main-header, header[role="banner"], body > header {
+  position: static !important;
+  top: auto !important;
+}
+/* Sidebar sticky, pero start después del header (más espacio) */
+.sb-home, aside.sidebar, .sidebar {
+  position: sticky !important;
+  top: 1rem !important;
+  z-index: 5 !important;
+  width: 260px !important;
+  max-height: calc(100vh - 2rem);
+  overflow-y: auto;
+}
+/* Header z-index alto siempre */
+header.main-header, header[role="banner"], body > header {
+  z-index: 100 !important;
+  position: relative !important;
+}
+/* Sidebar font-size más chico en labels largos */
+.cat-name, .cat-row a, .nav-cat-link {
+  font-size: .88rem !important;
+  line-height: 1.2 !important;
+  hyphens: auto;
+  word-break: break-word;
+}
+/* Sidebar items NO superpongan header */
+.layout, .main-wrapper, .content-area { padding-top: 1rem; }
+/* Header altura mínima visible */
+header.main-header, header[role="banner"], body > header { min-height: 80px; }
+/* Brand SIEMPRE visible (no cortado) */
+.brand, .brand-name, .brand-text, .logo-text {
+  text-shadow: 0 1px 3px rgba(0,0,0,.8) !important;
+  color: #FFFFFF !important;
+  font-weight: 700;
+}
+/* Email contraste alto */
+.header-email, header a[href^="mailto:"] {
+  color: #FCD34D !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,.8) !important;
+  font-weight: 600;
+}
+</style>
+<style id="kill-sticky-header-v1">
+/* MATAR position:fixed legacy de fase-i-fixes */
+nav.navbar, .header-top, .main-header, header.header, .header {
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+  width: auto !important;
+}
+body { padding-top: 0 !important; }
+
+/* Sidebar sticky pero NO encima del header */
+.sb-home, aside.sidebar, .sidebar, aside {
+  position: sticky !important;
+  top: 1rem !important;
+  z-index: 2 !important;
+  width: 260px !important;
+}
+
+/* Cards en grid: layout flex/grid sin colapsar */
+.cards-grid, [style*="display:grid"][style*="auto-fill"] {
+  margin-top: 1rem !important;
+}
+
+/* Layout main: padding-top para clearance */
+main, .main-content, .content-area, .layout > *:not(aside):not(.sidebar) {
+  padding-top: 0 !important;
+}
+</style>
+<style id="sidebar-overflow-fix-v1">
+/* Sidebar wider + items wrap properly */
+.sb-home, aside.sidebar, .sidebar, aside { width: 280px !important; }
+@media (max-width: 900px) {
+  .sb-home, aside.sidebar, .sidebar, aside { width: 100% !important; }
+}
+
+/* Cat name (main category) - wrap por palabras, NO por letras */
+.cat-name, .cat-row a:not(.cat-toggle), .nav-cat-link {
+  font-size: .9rem !important;
+  line-height: 1.25 !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: break-word !important;
+  hyphens: auto !important;
+  display: inline-block !important;
+  max-width: calc(100% - 30px);
+}
+
+/* Sub-items dentro de dropdown (cat-sub) - font más chico + truncate múltiple */
+.cat-sub a, .cat-sub-wrap a, details[open] a, .nav-cat-sub a {
+  font-size: .78rem !important;
+  line-height: 1.2 !important;
+  padding: .35rem .6rem .35rem 1.5rem !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: break-word !important;
+  display: block !important;
+  color: rgba(255,255,255,.85) !important;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.cat-sub a:hover, .cat-sub-wrap a:hover { background: rgba(255,255,255,.08); color: #FFFFFF !important; }
+
+/* Navbar items SIEMPRE visible — texto blanco */
+nav.navbar a, .nav-cat-link, nav a, .nav-bar a, .top-nav a,
+.nav-item, .nav-item a, .nav-item span {
+  color: #FFFFFF !important;
+  font-size: .95rem !important;
+  font-weight: 500;
+}
+nav.navbar a:hover, .nav-cat-link:hover { color: #FCD34D !important; }
+
+/* Si navbar tiene fondo claro: texto oscuro */
+nav.navbar[style*="background:#FFF"] a,
+nav.navbar[style*="background:#fff"] a,
+nav.navbar[style*="background:white"] a { color: #0F172A !important; }
+
+/* Cat-toggle arrow position absolute right */
+.cat-toggle, .cat-arrow, button.cat-toggle {
+  position: absolute !important;
+  right: .5rem !important;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent !important;
+  border: 0 !important;
+  color: #FFFFFF !important;
+  cursor: pointer;
+}
+.cat-row, .cat-item { position: relative !important; padding-right: 2rem !important; }
+
+/* Sidebar overflow-x hidden */
+.sb-home, aside.sidebar, .sidebar { overflow-x: hidden; }
+
+/* Container scroll bar styling */
+.sb-home::-webkit-scrollbar, aside.sidebar::-webkit-scrollbar { width: 4px; }
+.sb-home::-webkit-scrollbar-thumb, aside.sidebar::-webkit-scrollbar-thumb { background: rgba(255,255,255,.2); border-radius: 2px; }
+</style>
+<style id="sidebar-aggressive-fix-v3">
+/* Sidebar SIEMPRE ancho 280px en desktop */
+.sb-home, aside.sidebar, .sidebar, aside, .nav-sidebar {
+  width: 280px !important;
+  min-width: 280px !important;
+  flex-shrink: 0 !important;
+  box-sizing: border-box !important;
+}
+@media (max-width: 900px) {
+  .sb-home, aside.sidebar, .sidebar, aside { width: 100% !important; min-width: 0 !important; }
+}
+
+/* Cat row layout flex */
+.cat-row, .cat-item, details > summary, .nav-cat-row {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: .5rem !important;
+  padding: .65rem .85rem !important;
+  position: relative !important;
+}
+
+/* Cat name: flex:1, min-width:0 (KEY para no romper layout flex con texto largo) */
+.cat-name, .cat-row > a:not(.cat-toggle), .cat-row > span:not(.cat-toggle):not(.cat-arrow),
+.nav-cat-link {
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  font-size: .92rem !important;
+  line-height: 1.3 !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: break-word !important;
+  display: block !important;
+  color: #FFFFFF !important;
+  text-decoration: none;
+}
+
+/* Toggle arrow al final, ancho fijo */
+.cat-toggle, .cat-arrow, button.cat-toggle, summary::after {
+  flex-shrink: 0 !important;
+  width: 24px !important;
+  text-align: center !important;
+  background: transparent !important;
+  border: 0 !important;
+  color: #FFFFFF !important;
+  cursor: pointer;
+  position: static !important;
+  transform: none !important;
+}
+
+/* Cat-sub (dropdown items) INLINE BLOCK FLOW — NO popup overlay */
+.cat-sub, .cat-sub-wrap, details[open] > .cat-sub, .nav-cat-sub {
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  transform: none !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+  padding: 0 0 .5rem !important;
+  display: block !important;
+}
+.cat-sub a, .cat-sub-wrap a, .nav-cat-sub a {
+  display: block !important;
+  font-size: .8rem !important;
+  line-height: 1.25 !important;
+  padding: .35rem .85rem .35rem 2rem !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: break-word !important;
+  color: rgba(255,255,255,.78) !important;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.cat-sub a:hover, .cat-sub-wrap a:hover, .nav-cat-sub a:hover {
+  background: rgba(255,255,255,.08);
+  color: #FFFFFF !important;
+}
+
+/* Si .cat-sub está oculto por default (display:none), respetar pero mostrar al expandir */
+details:not([open]) .cat-sub { display: none !important; }
+details[open] .cat-sub { display: block !important; }
+</style>
+<style id="sidebar-definitive-fix-v4">
+/* cat-item NO debe ser flex (rompe cat-sub width) */
+.cat-item, details {
+  display: block !important;
+  position: relative !important;
+}
+/* cat-row interno SÍ flex para alinear name+toggle */
+.cat-row, details > summary, .nav-cat-row {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: .5rem !important;
+  padding: .65rem .85rem !important;
+}
+/* cat-sub: ancho completo del padre (cat-item) */
+.cat-sub, .cat-sub-wrap, details[open] > div, .nav-cat-sub {
+  display: block !important;
+  width: 100% !important;
+  min-width: 100% !important;
+  max-width: 100% !important;
+  flex: none !important;
+  flex-basis: auto !important;
+  position: static !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  padding: 0 0 .5rem !important;
+}
+/* Sub-item links */
+.cat-sub a, .cat-sub-wrap a, .nav-cat-sub a {
+  display: block !important;
+  width: 100% !important;
+  font-size: .82rem !important;
+  line-height: 1.25 !important;
+  padding: .35rem .75rem .35rem 1.5rem !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: break-word !important;
+  hyphens: auto !important;
+  color: rgba(255,255,255,.82) !important;
+  text-decoration: none;
+  box-sizing: border-box !important;
+}
+.cat-sub a:hover { background: rgba(255,255,255,.08); color: #FFFFFF !important; }
+
+/* Cat-name flex:1 dentro de cat-row */
+.cat-row .cat-name, .cat-row > a:first-child, .nav-cat-link {
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+  word-break: normal !important;
+  overflow-wrap: break-word !important;
+  white-space: normal !important;
+}
+
+/* Sidebar width fija desktop */
+aside, aside.sidebar, .sb-home, .sidebar {
+  width: 280px !important;
+  min-width: 280px !important;
+  flex-shrink: 0 !important;
+  box-sizing: border-box !important;
+}
+@media (max-width: 900px) {
+  aside, aside.sidebar, .sb-home, .sidebar {
+    width: 100% !important; min-width: 0 !important;
+  }
+}
+</style>
+</head><body>
 
 <header class="header">
     <div class="header-top">
         <div class="brand">
-            <div class="brand-logo"></div>
+            <div class="brand-logo">S</div>
             <div class="brand-text">
                 <div class="brand-name">GEOTECNIA 1</div>
                 <div class="brand-city">Santiago, Chile</div>
@@ -107,55 +580,66 @@ img{max-width:100%!important;height:auto!important}
         </div>
         <a href="mailto:contacto@geotecnia1.biz" class="header-email">contacto@geotecnia1.biz</a>
     </div>
-    <div class="crumb-4d4b"><a href="/">Inicio</a> › <a href="#">Cimentaciones</a> › <span>Análisis de asentamiento diferencial</span></div>
+    <div class="crumb"><a href="/">Inicio</a> › <span>Sísmica</span></div>
     <h1>Sísmica en Santiago</h1>
 </header>
 
 <div class="layout">
-    <aside><a href="/" class="sb-home">Inicio</a><div class="cat-item" data-cat="exploracion"><div class="cat-row"><a href="../exploracion/" class="cat-name">Exploración</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Exploración"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="../ensayo-cpt/">Ensayo CPT (Cone Penetration Test)</a><a href="../ensayo-spt/">Ensayo SPT (Standard Penetration Test)</a></div></div><div class="cat-item" data-cat="laboratorio"><div class="cat-row"><a href="../laboratorio/" class="cat-name">Laboratorio</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Laboratorio"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="../corte-directo/">Corte directo</a><a href="../estudio-mecanica-suelos/">Estudio de mecánica de suelos</a></div></div><div class="cat-item" data-cat="geofisica"><div class="cat-row"><a href="../geofisica/" class="cat-name">Geofísica</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Geofísica"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="../tomografia-sismica/">Tomografía sísmica de refracción/reflexión</a></div></div><div class="cat-item" data-cat="cimentaciones"><div class="cat-row"><a href="../cimentaciones/" class="cat-name">Cimentaciones</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Cimentaciones"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="../asentamiento-diferencial/">Análisis de asentamiento diferencial</a><a href="../asentamientos/">Análisis de asentamientos</a><a href="../pilotes/">Diseño de fundaciones en pilotes</a></div></div><div class="cat-item" data-cat="taludes"><div class="cat-row"><a href="../taludes/" class="cat-name">Taludes</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Taludes"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="../estabilidad-taludes/">Análisis de estabilidad de taludes</a><a href="../geoceldas/">Diseño con geoceldas</a><a href="../muros-contencion/">Diseño de muros de contención</a><a href="../deslizamientos/">Evaluación de deslizamientos</a><a href="../monitoreo-taludes/">Monitoreo geotécnico de taludes (mensual)</a></div></div><div class="cat-item" data-cat="mejoramiento"><div class="cat-row"><a href="../mejoramiento/" class="cat-name">Mejoramiento</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Mejoramiento"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="../vibrocompactacion/">Diseño de vibrocompactación</a><a href="../geomallas/">Especificación de geomallas</a></div></div><div class="cat-item" data-cat="geotecnia-vial"><div class="cat-row"><a href="../geotecnia-vial/" class="cat-name">Geotecnia vial</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Geotecnia vial"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="../pavimento-flexible/">Diseño de pavimento flexible</a><a href="../drenaje-vial/">Drenaje vial geotécnico</a></div></div><div class="cat-item" data-cat="sismica"><div class="cat-row"><a href="../sismica/" class="cat-name">Sísmica</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Sísmica"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="../licuefaccion/">Análisis de licuefacción de suelos</a><a href="../respuesta-sismica/">Análisis de respuesta sísmica del sitio</a></div></div></aside>
+    <aside><a href="/" class="sb-home">Inicio</a><div class="cat-item" data-cat="exploracion"><div class="cat-row"><a href="/exploracion/" class="cat-name">Exploración</a><button class="cat-toggle" aria-expanded="false" aria-label="Expand Exploración"><span class="cat-arrow"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3.5l3 3 3-3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/ensayo-cpt/">Ensayo CPT (Cone Penetration Test)</a></div></div><div class="cat-item" data-cat="laboratorio-in-situ"><div class="cat-row"><a data-interlink="1" href="/laboratorio-in-situ/" class="cat-name">Ensayos in situ</a><button class="cat-toggle" aria-expanded="false" aria-label="Expand Ensayos in situ"><span class="cat-arrow"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3.5l3 3 3-3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/densidad-cono-arena/">Densidad de campo (cono de arena)</a></div></div><div class="cat-item" data-cat="laboratorio-lab"><div class="cat-row"><a data-interlink="1" href="/laboratorio-in-situ/" class="cat-name">Laboratorio</a><button class="cat-toggle" aria-expanded="false" aria-label="Expand Laboratorio"><span class="cat-arrow"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3.5l3 3 3-3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/">Análisis granulométrico (tamices + hidrómetro)</a><a data-interlink="1" href="/">Límites de Atterberg</a></div></div><div class="cat-item" data-cat="cimentaciones"><div class="cat-row"><a data-interlink="1" href="/cimentaciones/" class="cat-name">Cimentaciones</a><button class="cat-toggle" aria-expanded="false" aria-label="Expand Cimentaciones"><span class="cat-arrow"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3.5l3 3 3-3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/pilotes/">Diseño de fundaciones en pilotes</a></div></div><div class="cat-item" data-cat="taludes"><div class="cat-row"><a data-interlink="1" href="/taludes/" class="cat-name">Taludes</a><button class="cat-toggle" aria-expanded="false" aria-label="Expand Taludes"><span class="cat-arrow"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3.5l3 3 3-3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/estabilidad-taludes/">Análisis de estabilidad de taludes</a><a data-interlink="1" href="/">Diseño de anclajes activos/pasivos</a><a data-interlink="1" href="/">Diseño de muros de contención</a></div></div><div class="cat-item" data-cat="mejoramiento"><div class="cat-row"><a data-interlink="1" href="/mejoramiento/" class="cat-name">Mejoramiento</a><button class="cat-toggle" aria-expanded="false" aria-label="Expand Mejoramiento"><span class="cat-arrow"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3.5l3 3 3-3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/columnas-grava/">Diseño de columnas de grava (stone columns)</a><a data-interlink="1" href="/vibrocompactacion/">Diseño de vibrocompactación</a></div></div><div class="cat-item" data-cat="excavaciones-subterraneo"><div class="cat-row"><a data-interlink="1" href="/excavaciones-subterraneo/" class="cat-name">Excavaciones subterráneas</a><button class="cat-toggle" aria-expanded="false" aria-label="Expand Excavaciones subterráneas"><span class="cat-arrow"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3.5l3 3 3-3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/tuneles-suelo-blando/">Análisis geotécnico para túneles en suelo blando</a><a data-interlink="1" href="/excavaciones-profundas/">Diseño geotécnico de excavaciones profundas</a><a data-interlink="1" href="/monitoreo-excavaciones/">Monitoreo geotécnico de excavaciones</a></div></div><div class="cat-item" data-cat="geotecnia-vial"><div class="cat-row"><a data-interlink="1" href="/geotecnia-vial/" class="cat-name">Geotecnia vial</a><button class="cat-toggle" aria-expanded="false" aria-label="Expand Geotecnia vial"><span class="cat-arrow"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3.5l3 3 3-3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/cimentaciones/">Diseño de pavimento flexible</a><a data-interlink="1" href="/cimentaciones/">Diseño de pavimento rígido</a><a data-interlink="1" href="/cbr-vial/">Estudio CBR para diseño vial</a><a data-interlink="1" href="/geotecnia-vial/">Geotecnia vial (diseño pavimentos/subrasante)</a></div></div><div class="cat-item" data-cat="sismica"><div class="cat-row"><a data-interlink="1" href="/sismica/" class="cat-name">Sísmica</a><button class="cat-toggle" aria-expanded="false" aria-label="Expand Sísmica"><span class="cat-arrow"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3.5l3 3 3-3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/licuefaccion/">Análisis de licuefacción de suelos</a><a data-interlink="1" href="/aislacion-sismica/">Diseño de aislación sísmica de base</a><a data-interlink="1" href="/microzonificacion-sismica/">Microzonificación sísmica</a></div></div></aside>
     <main>
-        <p>La sísmica en Santiago exige un conocimiento profundo de la geología de la cuenca, donde los suelos finos y los depósitos aluviales amplifican las ondas durante un evento. Esta categoría aborda la evaluación del peligro sísmico conforme a la norma NCh433 y el Decreto Supremo 61, integrando estudios que determinan cómo se comportará el terreno. Un aspecto crítico es el <a href="licuefaccion">análisis de licuefacción de suelos</a>, indispensable en sectores con nivel freático somero como los bordes del Mapocho, y el <a href="respuesta-sismica">análisis de respuesta sísmica del sitio</a>, que cuantifica la amplificación local y los espectros de diseño específicos para la estructura.</p>
-
-<p>Estos estudios son mandatorios para proyectos de edificación en altura, hospitales, infraestructura vial y obras con categoría de ocupación especial según la normativa chilena. La correcta ejecución de un <a href="respuesta-sismica">análisis de respuesta sísmica del sitio</a> permite optimizar las demandas sobre la estructura, evitando diseños excesivamente conservadores o, por el contrario, subestimaciones del riesgo. La sinergia con la caracterización geotécnica detallada es el pilar para una cimentación segura y resiliente en una de las zonas sísmicas más activas del mundo.</p>
-<section class="block mid-cta-4d4b" style="padding:2rem 0">
-      <div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#A1620715,#A1620708);border-left:4px solid #A16207;padding:1.5rem 1.8rem;border-radius:6px;text-align:center">
-        <h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">¿Necesita una evaluación geotécnica?</h3>
-        <p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Respuesta en menos de 24h.</p>
-        <a href="https://wa.me/56977092993" style="display:inline-block;background:#25D366;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(37,211,102,.25)">WhatsApp directo: +56 9 7709 2993</a><p style="margin:.6rem 0 0;color:#64748B;font-size:.85rem;font-style:italic;text-align:center">La forma más rápida de cotizar</p><p style="margin:1rem 0 0;color:#1E293B;font-size:.92rem;text-align:center">Email: <a href="mailto:contacto@geotecnia1.biz" style="color:#A16207;text-decoration:underline;font-weight:600">contacto@geotecnia1.biz</a></p>
-      </div>
-    </section>
-<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Servicios disponibles</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../licuefaccion/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Análisis de licuefacción de suelos</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../respuesta-sismica/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Análisis de respuesta sísmica del sitio</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
+<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><p>La evaluación de la sísmica en Santiago representa un desafío técnico fundamental para la ingeniería geotécnica, dado que la capital chilena se ubica en una zona de alta sismicidad debido a la subducción de la Placa de Nazca bajo la Placa Sudamericana. Esta actividad tectónica genera eventos de magnitud considerable, como los terremotos de 1985 y 2010, que exigen un riguroso análisis del comportamiento dinámico del suelo. El contexto técnico implica caracterizar la respuesta sísmica local mediante estudios de velocidad de onda de corte (Vs30), amplificación de ondas y licuefacción, factores críticos para la cimentación de edificaciones e infraestructura. La interacción entre depósitos de gravas, arenas y arcillas, típicos de la cuenca de Santiago, requiere modelos avanzados que consideren la no linealidad del suelo y efectos de sitio, elementos indispensables para cuantificar riesgos sísmicos en una urbe densamente poblada.</p>
+<img src="/img/microzonificacion-sismica-1.webp" alt="Seismic - Santiago" loading="lazy" decoding="async" width="1200" height="400" style="width:100%;max-height:280px;object-fit:cover;display:block;border-radius:8px;margin:1.5rem 0"><p>Los métodos geofísicos aplicados en Santiago incluyen la sísmica de refracción, la tomografía sísmica de pozos y el análisis multicanal de ondas superficiales (MASW), técnicas que permiten obtener perfiles de velocidad de ondas P y S en profundidad. Complementariamente, la sísmica de reflexión de alta resolución se utiliza para identificar estructuras geológicas y fallas activas bajo la cuenca. El método de vibración ambiental (HVSR) o razón espectral H/V es ampliamente empleado para estimar frecuencias de resonancia y espesores de sedimentos, esencial en microzonificación sísmica. Los equipos convencionales incluyen geófonos de 4.5 Hz, sismómetros de banda ancha y fuentes como martillo de 8 kg o acelerómetros de caída. La inversión de datos mediante algoritmos como el gradiente conjugado o el método de Monte Carlo proporciona modelos de velocidad que se integran con ensayos de penetración estándar (SPT) y de cono (CPT) para calibrar parámetros geotécnicos dinámicos.</p><p>Las normas locales que rigen los estudios sísmicos en Santiago provienen principalmente del Decreto Supremo N° 60 del Ministerio de Vivienda y Urbanismo, que incorpora la norma NCh 433.Of1996 (modificada en 2010) y su actualización NCh 433.Of2022. Estas normativas exigen la clasificación sísmica del suelo mediante el cálculo de la velocidad de onda de corte ponderada en los primeros 30 metros (Vs30), así como la determinación del período fundamental del sitio. La Ordenanza General de Urbanismo y Construcciones (OGUC) establece parámetros mínimos para estudios de mecánica de suelos en edificaciones, incluyendo la evaluación de amplificación local y potencial de licuefacción. En Santiago, además, la normativa municipal específica de comunas como Providencia y Las Condes exige análisis sísmicos detallados para proyectos de gran altura, con monitoreo de vibraciones ambientales y modelación numérica mediante códigos como PLAXIS 2D o FLAC 3D para cumplir con los factores de zona sísmica.</p><p>Las aplicaciones de la sísmica en Santiago abarcan desde la microzonificación de la cuenca para planes de ordenamiento territorial hasta el diseño de cimentaciones profundas en edificios emblemáticos como el Costanera Center Torre 2. En proyectos de infraestructura vial, como el Metro de Santiago (Líneas 3, 6 y 7), la sísmica de superficie permite caracterizar el subsuelo para túneles y estaciones, minimizando riesgos de colapso por ondas sísmicas. En el ámbito de la evaluación de riesgo patrimonial, se emplean métodos de vibración ambiental para determinar períodos propios de estructuras históricas, como la Catedral Metropolitana, y proponer refuerzos estructurales. Asimismo, en la exploración de recursos hídricos subterráneos bajo la ciudad, la sísmica de refracción ayuda a identificar acuíferos confinados, mientras que en la gestión de desastres, los mapas de amplificación sísmica derivados de estudios HVSR guían la priorización de reforzamiento de viviendas en zonas como la comuna de Maipú y Pudahuel.</p></div></section>
+<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Servicios disponibles</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../licuefaccion/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Análisis de licuefacción de suelos</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../aislacion-sismica/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Diseño de aislación sísmica de base</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../microzonificacion-sismica/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Microzonificación sísmica</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section>
+</main>
 </div>
 
 
-    <section class="block map-block" style="padding:3rem 1.5rem">
+    <section class="block mid-cta" style="padding:2rem 0"><div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#1d4ed815,#1d4ed808);border-left:4px solid #1d4ed8;padding:1.6rem 1.8rem;border-radius:8px;text-align:center"><h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B">¿Necesita una evaluación geotécnica?</h3><p style="margin:0 0 1rem;color:#64748B">Respuesta en menos de 24h.</p><a href="mailto:contacto@geotecnia1.biz" style="display:inline-block;background:#1d4ed8;color:#FFF;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800">Email: contacto@geotecnia1.biz</a></div></section>
+
+<section class="block" style="padding:1.5rem"><div style="max-width:1200px;margin:0 auto"><p style="margin-top:0">Este servicio se complementa con nuestro <a href="/cimentaciones/">diseño de cimentaciones</a> para un análisis integral del proyecto.</p></div></section>
+<section class="block map-block" style="padding:3rem 1.5rem">
       <div style="max-width:1200px;margin:0 auto">
         <h2 style="margin-bottom:.8rem;font-weight:700">Ubicación y área de servicio</h2>
         <p style="margin-bottom:1rem;color:#555">Atendemos proyectos en Santiago y su zona metropolitana.</p>
         <div class="map-wrap" style="position:relative;max-width:520px;margin:0 auto;aspect-ratio:4/3;border-radius:8px;overflow:hidden;border:1px solid #E5E7EB">
-          <div id="map_d195a5" style="position:absolute;top:0;left:0;width:100%;height:100%"></div>
+          <div id="map_6aaa00" style="position:absolute;top:0;left:0;width:100%;height:100%"></div>
         </div>
-        <link rel="stylesheet" href="/css/leaflet-4d4b.css">
-        <script src="/js/leaflet-4d4b.js"></script>
+        <link rel="stylesheet" href="/css/leaflet.css">
+        <script src="/js/leaflet.js"></script>
         <script>
         (function(){
-          var m=L.map("map_d195a5",{zoomControl:true,attributionControl:true}).setView([-33.4489,-70.6693],11);
+          var m=L.map("map_6aaa00",{zoomControl:true,attributionControl:true}).setView([-33.4377,-70.6511],11);
           L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png",{
             attribution:"&copy; OpenStreetMap colaboradores &copy; CARTO",maxZoom:19,subdomains:"abcd"
           }).addTo(m);
-          L.marker([-33.4489,-70.6693]).addTo(m).bindPopup("Santiago");
+          L.marker([-33.4377,-70.6511],{icon:L.divIcon({html:'<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 36\" width=\"24\" height=\"36\"><path d=\"M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24c0-6.6-5.4-12-12-12z\" fill=\"#E11D48\" stroke=\"#FFF\" stroke-width=\"1.5\"/><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"#FFF\"/></svg>',className:'',iconSize:[24,36],iconAnchor:[12,36]})}).addTo(m).bindPopup("Santiago");
+          L.circle([-33.4377,-70.6511],{radius:5000,color:'#171717',weight:2,fillColor:'#404040',fillOpacity:0.18}).addTo(m);
         })();
         </script>
         <div style="margin-top:.5rem;font-size:.78rem;color:#888;text-align:center">
-          <a href="https://www.openstreetmap.org/?mlat=-33.4489&mlon=-70.6693#map=11/-33.4489/-70.6693" target="_blank" rel="noopener">Ver mapa ampliado</a>
+          <a href="https://www.openstreetmap.org/?mlat=-33.4377&mlon=-70.6511#map=11/-33.4377/-70.6511" target="_blank" rel="noopener">Ver mapa ampliado</a>
         </div>
       </div>
     </section>
 
-<link rel="stylesheet" href="/css/leaflet-4d4b.css"/>
-<script src="/js/leaflet-4d4b.js"></script>
-<script>
-(function(){function init(){if(typeof L==="undefined"){setTimeout(init,200);return;}var el=document.getElementById("map-leaflet");if(!el)return;var map=L.map(el).setView([-33.4376995,-70.6510671],12);L.tileLayer("https://{s}.tile-4d4b.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"© OpenStreetMap",maxZoom:18}).addTo(map);L.marker([-33.4376995,-70.6510671]).addTo(map).bindPopup("Santiago").openPopup();}if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",init);}else{init();}})();
-</script><footer style="background:#14532D;color:rgba(255,255,255,.85);padding:2rem 1.5rem;text-align:center;font-size:.92rem">Santiago, Chile · <a href="mailto:contacto@geotecnia1.biz" style="color:#FFF;text-decoration:underline">contacto@geotecnia1.biz</a><div data-updated="2026-04-12" style="font-size:.78rem;color:rgba(255,255,255,.6);margin-top:.8rem">Última actualización: 2026-03-03</div><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Referencias técnicas:</strong> <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocódigo 7</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotécnica</a> · <a href="https://www.aenor.com/" rel="nofollow noopener" target="_blank">AENOR (España)</a></div></footer>
+<footer style="background:#14532D;color:rgba(255,255,255,.85);padding:2rem 1.5rem;text-align:center;font-size:.92rem">Santiago, Chile · <a href="mailto:contacto@geotecnia1.biz" style="color:#FFF;text-decoration:underline">contacto@geotecnia1.biz</a><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Referencias técnicas:</strong> <a href="https://www.inn.cl/" rel="nofollow noopener" target="_blank">NCh INN</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotécnica</a> · <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocódigo 7</a></div><div class="updated-info" data-updated="2026-05-14" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Última actualización: 2026-05-14</div></footer>
 
-<script>(function(){document.querySelectorAll(".cat-toggle").forEach(function(b){b.addEventListener("click",function(e){e.preventDefault();var s=b.parentElement.parentElement.querySelector(".cat-sub");var ex=b.getAttribute("aria-expanded")==="true";b.setAttribute("aria-expanded",!ex);if(s){s.hidden=ex;}});});})();</script></body></html>
+<script id="sidebar-toggle-v3">
+(function(){
+  if(window.__sidebarToggleV3){return}window.__sidebarToggleV3=true;
+  // Event delegation en document — funciona aunque DOMContentLoaded ya haya pasado.
+  // Ver REGLA 34 #7 (JS race conditions) y avance53.
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest&&e.target.closest('.cat-toggle');
+    if(!btn)return;
+    e.preventDefault();
+    var item=btn.closest('.cat-item');
+    if(!item)return;
+    var sub=item.querySelector('.cat-sub');
+    var open=btn.getAttribute('aria-expanded')==='true';
+    btn.setAttribute('aria-expanded',open?'false':'true');
+    if(sub){if(open){sub.setAttribute('hidden','')}else{sub.removeAttribute('hidden')}}
+  });
+})();
+</script>
+</body></html>
